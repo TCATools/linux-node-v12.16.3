@@ -37,7 +37,13 @@
     "globals": {
 
     },
+    "parser": "@babel/eslint-parser",
     "parserOptions": {
+        "babelOptions": {
+            "presets": [
+                "@babel/preset-react"
+            ]
+        },
         "sourceType": "module"
     },
     "rules": {
